@@ -1,7 +1,6 @@
 package ru.netology.unit;
 
 import static org.testng.Assert.*;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -33,4 +32,5 @@ public class CashBackServiceTest {
         Assert.assertEquals(actual, expected);
     }
 
+    
 }

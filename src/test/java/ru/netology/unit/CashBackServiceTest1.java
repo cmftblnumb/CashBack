@@ -1,11 +1,10 @@
 package ru.netology.unit;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.*;
 import org.junit.Test;
 import org.testng.Assert;
 
 public class CashBackServiceTest1 {
-
     @Test
     public void shouldReturn100IfAmountIs900() {
         CashBackService service = new CashBackService();
@@ -32,4 +31,6 @@ public class CashBackServiceTest1 {
         int actual = service.remain(amount);
         Assert.assertEquals(expected, actual);
     }
+
+
 }
